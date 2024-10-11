@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Git - всему голова!</title>
+      <link rel="stylesheet" type="text/css" href="../css/style.css">
+      <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+      <link rel="shortcut icon" href="../img/fav.ico" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body>
+      <!--Card-->
+      <div class="card">
+         <p class="subtitle">Git</p>
+         <h3 id="rt-0"> Создание репозитория</h3>
+          <ul>
+            <li>git init [название проекта] - Создаёт новый локальный репозиторий с заданным именем</li>
+         </ul>
+         <ul>
+            <li>git clone [url-адрес] - Скачивает репозиторий вместе со всей его историей изменений</li>
+         </ul>
+         <h3 id="rt-1"> Внесение изменений</h3>
+         <ul>
+            <li>git status - Перечисляет все новые или изменённые файлы, которые нуждаются в фиксации</li>
+         </ul>
+         <ul>
+            <li>git add [файл] - Индексирует указанный файл для последующего коммита</li>
+         </ul>
+         <ul>
+            <li>git commit -m "[сообщение с описанием]" - Фиксирует проиндексированные изменения и сохраняет их в историю версий</li>
+         </ul>
+         <h3 id="rt-2"> Коллективная работа</h3>
+         <ul>
+            <li>git branch - Список именованных веток коммитов с указанием выбранной ветки</li>
+         </ul>
+         <ul>
+            <li>git branch [имя ветки] - Создаёт новую ветку в репозитории</li>
+         </ul>
+         <ul>
+            <li>git switch -c [имя ветки] - Переключается на выбранную ветку и обновляет рабочую директорию до её состояния</li>
+         </ul>
+         <ul>
+            <li>git merge [имя ветки] - Вносит изменения указанной ветки в текущую ветку</li>
+         </ul>
+         <ul>
+            <li>git branch -d [имя ветки] - Удаляет выбранную ветку</li>
+         </ul>
+         <h3 id="rt-3"> Синхронизация с удалённым репозиторием</h3>
+         <ul>
+            <li>git fetch [удалённый репозиторий] - Скачивает всю историю из удалённого репозитория</li>
+         </ul>
+         <ul>
+            <li>git merge [удалённый репозиторий]/[ветка] - Вносит изменения из ветки удалённого репозитория в текущую ветку локального репозитория</li>
+         </ul>
+         <ul>
+            <li>git push [удалённый репозиторий] [ветка] - Загружает все изменения локальной ветки в удалённый репозиторий</li>
+         </ul>
+         <ul>
+            <li>git pull - Загружает историю из удалённого репозитория и объединяет её с локальной. pull = fetch + merge</li>
+         </ul>
+      </div>
+      <!--footer-->
+      <footer class="animated fadeIn">
+         <p class="location" align="center">
+            <a href="../index.html">Вернуться на главную</a>
+         </p>
+         &copy; 2024. SkyPro
+      </footer>
+   </body>
+</html>

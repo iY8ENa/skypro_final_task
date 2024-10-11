@@ -1,0 +1,44 @@
+При выполнении работы были внесены следующие улучшения
+
+Файл index.html.
+1. В койтейнер div class="card animated fadeIn", добавлен атрибут align="center", удалены отдельные атрибуты align="center", и теперь весь контейнер выровнен по центру, вместо отдельного прописывание атрибута каждой строки. 
+2. Контейнер
+         <div class="name">
+            Основные Инструменты
+         </div>
+Изменён на тег
+         <p class="name">Основные Инструменты</p>
+         </p>
+3. Заменил изображение аватарки на главной странице
+ <img class="center animated rollIn" src=img/ava.png>
+4. Заменил изображение фавикона
+<link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
+
+Файл style.css.
+1. В селекторе .name поменял значение свойства color: с gainsboro; на rgb(115, 112, 112); для всех разрешений экрана
+    {
+text-align: center;
+font-size: 2.8em;
+color: rgb(115, 112, 112);
+margin-top: 15%;
+margin-bottom: auto;
+text-transform: capitalize;
+}
+2. В селекторе .location изменил отступы для кнопки для всех разрешений экрана
+        margin-left: 27%;
+margin-right: 28%;
+
+Файл cmd.html.
+1. В селектор <!--footer--> добавил кнопку для возвращения на главную страницу
+<footer class="animated fadeIn">
+         <p class="location" align="center">
+            <a href="../index.html">Вернуться на главную</a>
+         </p>
+         &copy; 2024. SkyPro
+      </footer>
+
+Файл mac.html.
+
+
+Файл git.html
+1. Добавил и заменил информацию на подходящую для данной страницы
